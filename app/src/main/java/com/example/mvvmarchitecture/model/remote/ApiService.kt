@@ -16,7 +16,7 @@ import java.util.Base64
 object ApiService {
     val client = OkHttpClient()
     val clientId = "YOUR_CLIENT_ID"
-    val clientSecret = "YOUR_SECRET_CODE"
+    val clientSecret = "YOUR_CLIENT_SECRET"
     var accessToken : String? = null
     private var playListId = "75wi76gHtFUUYspvu4iFhX"
     private var limit = 10
